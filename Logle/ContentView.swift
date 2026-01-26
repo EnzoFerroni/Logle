@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            SVGImage(url: URL(string: "https://www.logotypes.dev/random?variant=glyph")!)
         }
         .padding()
     }
