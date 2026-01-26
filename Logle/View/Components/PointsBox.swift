@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct PointsBox: View {
+    
+    var points: Int
+    
     var body: some View {
         ZStack {
             Rectangle()
                 .foregroundColor(.darkBlue)
                 
             VStack (alignment: .trailing) {
-            Text("0")
+            Text("\(points)")
                 .font(.system(size: 24))
                 .foregroundStyle(Color(.white))
             Text("pontos")
@@ -27,5 +30,5 @@ struct PointsBox: View {
 }
 
 #Preview {
-    PointsBox()
+    PointsBox(points: 0)
 }

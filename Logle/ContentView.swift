@@ -9,10 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            SVGImage(url: URL(string: "https://www.logotypes.dev/random?variant=glyph")!)
-        }
-        .padding()
+        GameView()
     }
 }
 

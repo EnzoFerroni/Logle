@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StreakBox: View {
     
-    @State var streak: Int = 0
+    var streak: Int
     
     var body: some View {
         ZStack {
@@ -30,5 +30,5 @@ struct StreakBox: View {
 }
 
 #Preview {
-    StreakBox()
+    StreakBox(streak: 0)
 }
