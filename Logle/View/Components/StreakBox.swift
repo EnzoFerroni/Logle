@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct StreakBox: View {
+    
+    @State var streak: Int = 0
+    
     var body: some View {
         ZStack {
             Rectangle()
                 .foregroundColor(.darkBlue)
                 
             VStack (alignment: .trailing) {
-            Text("0")
+            Text("\(streak)")
                 .font(.system(size: 24))
                 .foregroundStyle(Color(.white))
             Text("acertos")
