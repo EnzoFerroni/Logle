@@ -15,6 +15,7 @@ A Wordle-style iOS game where you guess famous company logos, loaded from the op
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Challenge Checklist](#challenge-checklist)
+- [Author](#author)
 - [License](#license)
 
 ## About
@@ -70,6 +71,21 @@ An honest self-assessment against the challenge requirements:
 - [ ] Pixel-perfect handoff reproduction (only part of the design was implemented; game logic came first)
 - [ ] Strict MVVM throughout (some logic still lives in views)
 - [ ] DocC documentation
+
+## Author
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="100%">
+        <a href="https://github.com/EnzoFerroni"><img src="https://github.com/EnzoFerroni.png" width="90" alt="Enzo Ferroni"/></a>
+        <br/><sub><b>Enzo Ferroni</b></sub><br/><br/>
+        <a href="https://github.com/EnzoFerroni"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/enzoferroni/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## License
 
